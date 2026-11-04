@@ -2,7 +2,7 @@
 
 Archivo de Packet Tracer 8.2.2: `TEMA2_2do_parcial_maqueta_OSPF_DHCP_DNS_HTTP_PT-8.2.2.pkt`
 
-(El Tema 1 sigue en esta misma carpeta, en los archivos `2do_parcial_...`.)
+(El Tema 1 está en esta misma carpeta, en los archivos `TEMA1_...`.)
 
 ---
 

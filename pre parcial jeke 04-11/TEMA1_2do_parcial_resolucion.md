@@ -1,6 +1,6 @@
-# 2do. Parcial – Aspectos Legales de la Profesión (resolución para comparar)
+# TEMA 1 – 2do. Parcial – Aspectos Legales de la Profesión (resolución para comparar)
 
-Archivo de Packet Tracer 8.2.2: `2do_parcial_maqueta_OSPF_DHCP_DNS_HTTP_PT-8.2.2.pkt`
+Archivo de Packet Tracer 8.2.2: `TEMA1_2do_parcial_maqueta_OSPF_DHCP_DNS_HTTP_PT-8.2.2.pkt`
 
 ---
 
