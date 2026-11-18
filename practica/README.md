@@ -13,5 +13,6 @@ Todos son redes con direccionamiento estático. Cada archivo se probó con un pi
 | 7 | `07_tres_LANs_estaticas_y_RIP_PT-8.2.2.pkt` | Estilo consigna 15: 3 routers (Oeste, Centro, Sur) y 3 LAN en 192.168.70.0/24 con VLSM (A /26, C /27, D /28, enlaces /30). Estáticas para A y C, RIP v2 para el resto | G_PCA → 192.168.70.66 y 192.168.70.98 |
 | 8 | `08_VLANs_router_on_a_stick_DHCP_PT-8.2.2.pkt` | Router-on-a-stick: VLAN 10 (VENTAS, 192.168.10.0/24) y VLAN 20 (SOPORTE, 192.168.20.0/24) con subinterfaces dot1Q, trunk al switch y DHCP en el router | PC1 (VLAN 10) → PC4 (VLAN 20) |
 | 9 | `09_dos_routers_OSPF_DNS_HTTP_PT-8.2.2.pkt` | Dos routers con OSPF (área 0) unidos por 10.0.0.0/30; LAN 192.168.10.0/24 (PC1, PC2) y 192.168.20.0/24 (PC3 y servidor SRV1 con DNS `www.jeke.com` y HTTP) | PC1 → 192.168.20.11 y navegador a `http://www.jeke.com` |
+| 10 | `10_DHCP_relay_helper_address_PT-8.2.2.pkt` | DHCP relay: servidor DHCP en la LAN 192.168.20.0/24 (R2) que reparte IPs a la LAN 192.168.10.0/24 (R1) con `ip helper-address`; enlace 10.0.0.0/30 y rutas estáticas. Pool 192.168.10.50–99 | PC1 y PC2 con `ipconfig /renew` y ping a 192.168.20.10 |
 
 Ideas para variar: cambiar las IPs, agregar un servidor, pasar el ejercicio 4 a RIP o a OSPF, o romper una ruta a propósito y encontrar el error.
